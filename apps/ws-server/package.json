@@ -1,0 +1,31 @@
+{
+  "name": "ws-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b",
+    "dev": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@oak/oak": "npm:@jsr/oak__oak@^17.2.0",
+    "@types/cors": "^2.8.19",
+    "cors": "^2.8.5",
+    "pg": "^8.16.3",
+    "serve-handler": "^6.1.6",
+    "socket.io": "^4.8.3",
+    "ws": "^8.19.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.1.0",
+    "utf-8-validate": "^6.0.6"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}

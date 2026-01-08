@@ -1,9 +1,10 @@
 import React from 'react'
+import ChatHandler from './chat-page'
 
 const page = () => {
   return (
     <div>
-      <h1>Hey </h1>
+     <ChatHandler/>      
     </div>
   )
 }

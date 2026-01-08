@@ -1,0 +1,6 @@
+{
+  "extends": "@repo/typescript-config/globalTsc.json",
+  "compilerOptions": {
+    "rootDir": "./src"
+  }
+}
